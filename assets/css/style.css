@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main {
-  margin-left: 250px;
+  margin-left: 5px;
 }
 
 @media (max-width: 1199px) {
@@ -275,9 +275,9 @@ section {
   overflow: hidden;
 }
 
-.section-bg {
+/*.section-bg {
   background: #f5f8fd;
-}
+}*/
 
 .section-title {
   padding-bottom: 30px;
@@ -396,6 +396,9 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
+.skills .section-bg{
+  background-color: black;
+}
 .skills .progress {
   height: 60px;
   display: block;
